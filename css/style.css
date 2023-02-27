@@ -1,0 +1,41 @@
+.ms_container_big {
+    max-width: 1440px;
+    background-color: aquamarine;
+    /* height: 500px; */
+
+}
+
+.ms_container_small{
+    max-width: 930px;
+
+
+}
+
+nav{
+    background-color: #2C3E50;
+    height: 60px;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* header */
+.jumbotron{
+    background-color: #1ABC9C;
+    /* debug */
+    height: 300px;
+}
+
+.jumbo-content{
+    background-color: brown;
+    height: 80%;
+
+
+}
+
+
+
+.col-6 {
+    background-color: brown;
+}
