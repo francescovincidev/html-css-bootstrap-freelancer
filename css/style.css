@@ -1,26 +1,26 @@
-.ms_container_big {
-    max-width: 1440px;
-    /* height: 500px; */
-    
-}
-header .ms_container_big{
-    background-color: aquamarine;
 
-}
+
 .ms_container_small{
     width: 80%;
     /* max-width: 720px; */
     margin: 0 auto;
 }
 
-nav, .ul-hidden{
+nav {
     background-color: #2C3E50;
     height: 60px;
 }
+.ul-hidden, .info{
+    background-color: #3A546D;
+
+
+}
+
 
 li {
     list-style-type: none;
 }
+
 img{
     max-width: 100%;
 }
@@ -31,8 +31,6 @@ img{
 .ms_primary_background{
     background-color: #1ABC9C;
     color: white;
-    /* debug */
-    /* height: 300px; */
 }
 
 /* jumbotron */
@@ -40,8 +38,6 @@ img{
 .ms_jumbo-content{
     background-color: brown;
     height: 80%;
-
-
 }
 
 header img{
@@ -57,45 +53,32 @@ hr{
 
 /* MAIN */
 
-
-
 /* about */
 .about{
     background-color: #1ABC9C;
     
 }
 
-.ms_btn_about{
-    border: 1px solid white;
-    color: white;
-}
-
-.ms_btn_about:hover{
-    border: 1px solid white;
-    
-}
-
+.ms_btn_about,
+.ms_btn_about:hover,
 .ms_btn_about:focus-visible{
     border: 1px solid white;
-    
+    color: white;
 }
+
+
 
 /* contact */
-.ms_btn_contact{
-    background-color: #1ABC9C;
-    color: white;
-}
-
-.ms_btn_contact:hover{
-    background-color: #1ABC9C;
-    color: white;
-}
-.ms_btn_contact:active{
-    background-color: #1ABC9C;
-    color: white;
-}
-
+.ms_btn_contact,
+.ms_btn_contact:hover,
+.ms_btn_contact:active,
 .ms_btn_contact:focus-visible{
     background-color: #1ABC9C;
     color: white;
+}
+
+/* copyright */
+.copyright{
+    background-color: #2C3E50;
+    ;
 }

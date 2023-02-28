@@ -28,8 +28,8 @@
                 <div class="container">
             <div class="container-fluid d-flex justify-content-between align-items-center">
                 <div class="text-uppercase fw-semibold">start bootstrap</div>
-                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="text-white><i class="fa-solid fa-bars"></i></span>
+                <button class="navbar-toggler d-md-none border-white shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="text-white"><i class="fa-solid fa-bars"></i></span>
                 </button>
                 <ul class="d-none d-md-flex  gap-3 m-0 justify-content-end">
                     <li>Portafolio</li>
@@ -162,15 +162,27 @@
                             <i class="fa-solid fa-star fs-1"></i>
                             <hr class="opacity-100 ">
                         </div>
-                        <div class="row row-cols-1 ">
-                            <div class="col py-3 border-bottom">Nome</div>
-                            <div class="col py-3 border-bottom">Email Address</div>
-                            <div class="col py-3 border-bottom">Phone Number</div>
-                            <div class="col py-3 border-bottom">Message</div>
-                            <div class="col py-3">
-                                <a class="btn ms_btn_contact" href="">Send</a>
+
+
+                        <form action="">
+                            <div class="py-2">
+                                <label for="name-contact">Name</label>
+                                <input class="w-100 border-0 border-bottom" id="name-contact" type="text" placeholder="Inserisci nome">
                             </div>
-                        </div>
+                            <div class="py-2">
+                                <label for="email-contact">Email Addres</label>
+                                <input class="w-100 border-0 border-bottom" id="email-contact" type="text" placeholder="Inserisci email">
+                            </div>
+                            <div class="py-2">
+                                <label for="phone-contact">Phone Number</label>
+                                <input class="w-100 border-0 border-bottom" id="phone-contact" type="text" placeholder="Telefono">
+                            </div>
+                            <div class="py-2">
+                                <label for="message-contact">Message</label>
+                                <textarea class="w-100 border-0 border-bottom" name="" id="message-contact" cols="10" rows="3"></textarea>
+                            </div>
+                        </form>
+
                         
                     </div>
                 </div>
@@ -181,35 +193,36 @@
     <footer>
 
         <!-- info -->
-        <section class="info">
+        <section class="info py-4">
             <div class="container">
-                <div class="row">
+                <div class="row text-center text-white gy-4">
                     <div class="col-12  col-md-4 g">
-                        <p>
-
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, explicabo eligendi. Cum eveniet
-                            temporibus magnam voluptatem sit, itaque provident maxime totam fuga dolorum dicta molestias
-                            architecto vel nesciunt aspernatur molestiae.
-                        </p>
+                        <div class="text-uppercase">location</div>
+                        <div>54639c  milano</div> 
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>
+                        <div class="text-uppercase">around the web</div>
+                        <div>
+                            <i class="fa-brands fa-facebook-f px-2 py-1 border rounded-circle"></i>
+                            <i class="fa-brands fa-google-plus-g px-1 py-1 border rounded-circle"></i>
+                            <i class="fa-brands fa-twitter px-1 py-1 border rounded-circle"></i>
+                            <i class="fa-brands fa-linkedin-in px-1 py-1 border rounded-circle"></i>
 
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam maxime minima
-                            architecto officiis reiciendis! Asperiores, modi placeat tempore iusto quibusdam odio dolorum
-                            minima, voluptatibus quia voluptate minus animi explicabo!
-                        </p>
+                        </div>
                     </div>
                     <div class="col-12 col-md-4">
-                        <p>
-
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem cupiditate, eos voluptate
-                            voluptatibus doloribus ratione nisi repellendus harum cumque, id tempora nostrum eum ducimus
-                            dignissimos quia optio hic vitae magni.
-                        </p>
+                        <div class="text-uppercase">around the web</div>
+                        <p>freelance its free to use, created by <span class="color-#1ABC9C">Start Bootstrap</span></p>
+                        
                     </div>
                 </div>
             </div>
+
+        </section>
+
+        <!-- copyright -->
+        <section class="copyright py-4 text-white">
+            <div class="text-center">copyright</div>
 
         </section>
     </footer>
