@@ -11,14 +11,19 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
+        <!-- fontawesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
     <!-- style -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <header class="">
-        <nav class="container-fluid">
-            <div class="container-fluid h-100 ms_container_big">
+        <!-- nav menu -->
+        <nav class="text-white text-uppercase">
+            <div class="container h-100">
                 <div class="row h-100 align-items-center">
                     <div class="col-6">Start Bootstrap</div>
                     <div class="col-6">
@@ -31,62 +36,148 @@
                 </div>
             </div>
         </nav>
-        <div class="jumbotron">
 
-            <div class="h-100 container-sm ">
-                <div class="jumbo-content">
-
+        <!-- jumbotron -->
+        <div class="ms_primary_background text-center py-4">
+            <div class="container">
+                <img src="img/avatar.svg" alt="">
+                <h2 class="text-uppercase fw-semibold py-4">start bootstrap</h2>
+                <div class="ms_line_star pb-4 d-flex justify-content-center align-items-center gap-3">
+                    <hr class="opacity-100">
+                    <i class="fa-solid fa-star fs-1"></i>
+                    <hr class="opacity-100 ">
                 </div>
+                <h3 class="text-uppercase">graphic artist - web designer - illustrator</h3>
             </div>
-
         </div>
     </header>
 
     <!-- MAIN -->
     <main>
-        <section class="portofolio">
 
-            <div class="ms_container_big container-fluid">
-                <h3 class="my-4 text-center">portfolio</h3>
-
-                <div class="row g-4">
-                    <div class="square col-12 col-md-6 col-lg-4">
+        <!-- portfolio -->
+        <section class="ms_portofolio py-4">
+            <div class="container ">
+                <h2 class="my-4 text-center text-uppercase">portfolio</h2>
+                <div class="ms_line_star pb-4 d-flex justify-content-center align-items-center gap-3">
+                    <hr class="opacity-100">
+                    <i class="fa-solid fa-star fs-1"></i>
+                    <hr class="opacity-100">
+                </div>
+                <div class="row g-2">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/cabin.png" alt="">
                     </div>
-                    <div class="square col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/cake.png" alt="">
                     </div>
-                    <div class="square col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/circus.png" alt="">
                     </div>
-                    <div class="square col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/game.png" alt="">
                     </div>
-                    <div class="square col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/safe.png" alt="">
                     </div>
-                    <div class="square col-12 col-md-6 col-lg-4">
+                    <div class="col-12 col-md-6 col-lg-4">
                         <img src="img/submarine.png" alt="">
                     </div>
                 </div>
 
             </div>
         </section>
-        <section class="about">
-            <div class="ms_container_big container-fluid">
 
-                <h3 class="my-4 text-center">about</h3>
-                <div class="row">
-                    <div class="col-12 col-md-6">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quos at earum! Quisquam, dolorum mollitia deserunt at reprehenderit, nobis dolorem alias quia facere aliquid officia vero asperiores debitis consequatur cumque?</p>
-                    </div>
-                    <div class="col-12 col-md-6 my-">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maiores, explicabo dolorum error adipisci ad omnis assumenda eligendi eius repellendus cupiditate nam consequuntur voluptatem esse illo ea! Repellendus, iste ipsum?</p>
+        <!-- about -->
+        <section class="about text-white primary_background py-4">
+            <div class="container">
+                <div class="ms_container_small">
+                    <div class="container-fluid">
+                        <h2 class="my-4 text-center  text-uppercase">about</h2>
+                        <div class="ms_line_star pb-4 d-flex justify-content-center align-items-center gap-3">
+                            <hr class="opacity-100">
+                            <i class="fa-solid fa-star fs-1"></i>
+                            <hr class="opacity-100 ">
+                        </div>
+                        <div class="row row-cols-1 row-cols-md-2">
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem quos at earum!
+                                    Quisquam,
+                                    dolorum mollitia deserunt at reprehenderit, nobis dolorem alias quia facere aliquid
+                                    officia
+                                    vero asperiores debitis consequatur cumque?</p>
+                            </div>
+                            <div class="col">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque maiores, explicabo
+                                    dolorum
+                                    error adipisci ad omnis assumenda eligendi eius repellendus cupiditate nam
+                                    consequuntur
+                                    voluptatem esse illo ea! Repellendus, iste ipsum?</p>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center">
+                            <a class="btn ms_btn_about" href=""><i class="fa-solid fa-download"></i> Download</a>
+
+                        </div>
                     </div>
                 </div>
+
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact py-4">
+            <div class="container">
+                <div class="ms_container_small">
+                    <div class="container-fluid">   
+                        <h2 class="my-4 text-center text-uppercase">contact us</h2>
+                        <div class="ms_line_star pb-4 d-flex justify-content-center align-items-center gap-3">
+                            <hr class="opacity-100">
+                            <i class="fa-solid fa-star fs-1"></i>
+                            <hr class="opacity-100 ">
+                        </div>
+                        <div class="row row-cols-1">
+                            <div class="col py-3 border-bottom">Nome</div>
+                            <div class="col py-3 border-bottom">Email Address</div>
+                            <div class="col py-3 border-bottom">Phone Number</div>
+                            <div class="col py-3 border-bottom">Message</div>
+                            <div class="col py-3">
+                                <a class="btn ms_btn_contact" href="">Send</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
             </div>
         </section>
     </main>
+    <footer>
+
+        <!-- info -->
+        <section class="info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12  col-md-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, explicabo eligendi. Cum eveniet
+                        temporibus magnam voluptatem sit, itaque provident maxime totam fuga dolorum dicta molestias
+                        architecto vel nesciunt aspernatur molestiae.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus veniam maxime minima
+                        architecto officiis reiciendis! Asperiores, modi placeat tempore iusto quibusdam odio dolorum
+                        minima, voluptatibus quia voluptate minus animi explicabo!
+                    </div>
+                    <div class="col-12 col-md-4">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem cupiditate, eos voluptate
+                        voluptatibus doloribus ratione nisi repellendus harum cumque, id tempora nostrum eum ducimus
+                        dignissimos quia optio hic vitae magni.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </footer>
 </body>
 
 </html>
